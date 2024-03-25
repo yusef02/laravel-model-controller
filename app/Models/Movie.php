@@ -9,5 +9,4 @@ class Movie extends Model
 {
     use HasFactory;
     protected $table = 'movies';
-    protected $primary_key = 'id';
 }
